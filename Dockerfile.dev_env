@@ -1,0 +1,7 @@
+# NOTE: This container must be started as a root user
+FROM ubuntu:22.04
+
+# # update apt
+# RUN sudo apt update
+# # install blender dependencies
+# RUN apt install build-essential git subversion cmake libx11-dev libxxf86vm-dev libxcursor-dev libxi-dev libxrandr-dev libxinerama-dev libegl-dev
